@@ -1,72 +1,92 @@
 # 🎵 Nostalgia Radio
 
-> A retro-inspired music experience built around the charm of classic Indian cinema and old Hindi songs.
+> A retro-inspired music experience inspired by classic Indian cinema, old Hindi songs, and the atmosphere of a traditional paan shop.
 
-🌐 **Live Demo:** https://paanwala.vercel.app  
-💻 **Portfolio Repository:** https://github.com/dexterav/nostalgia-radio
+🌐 **Live Demo:** https://paanwala.vercel.app
+
+💻 **GitHub:** https://github.com/dexterav/nostalgia-radio
 
 ---
 
 ## ✨ Overview
 
-Nostalgia Radio is a responsive web-based music player designed with a nostalgic Indian street aesthetic.
+Nostalgia Radio is a responsive web-based music experience designed around a nostalgic Indian street and paan-shop aesthetic.
 
-The project combines a cinematic visual experience with a functional audio player, playlist navigation, responsive layouts, and modern frontend technologies.
+The project combines a custom visual environment with a functional music player, playlist navigation, keyboard shortcuts, responsive layouts, and production deployment.
 
-The goal was to create a website that feels like stepping into a small old-school paan shop while listening to classic Hindi music.
+The goal was to create an immersive experience that feels like sitting in a small old-school paan shop while listening to classic Hindi music.
 
 ---
 
 ## 🚀 Features
 
-- 🎵 Custom music player with play/pause controls
-- ⏮️ Previous and next track navigation
-- 📻 Playlist-based music playback
-- ⏱️ Track progress and duration display
-- 📱 Responsive mobile and desktop layouts
-- 🖼️ Separate visual layouts for wide and tall screens
-- 🎨 Custom retro/Indian street-inspired UI
+- 🎵 Custom audio player
+- ▶️ Play / Pause controls
+- ⏮️ Previous and Next track navigation
+- ⏱️ Track progress and duration
+- 🎚️ Seekable progress bar
+- 🎼 50-song playlist
+- ⌨️ Keyboard shortcuts
+- 📱 Responsive mobile layout
+- 🖥️ Desktop layout
+- 🖼️ Separate wide and tall background scenes
+- 🍃 Interactive paan-leaf rain animation
+- 🎨 Custom nostalgic Indian street-inspired design
 - 🌐 Production deployment with Vercel
-- ⚡ Fast frontend experience with Vite
-- 💾 Git LFS workflow for large audio assets
+
+### ⌨️ Keyboard Shortcuts
+
+| Key | Action |
+|-----|--------|
+| `Space` | Play / Pause |
+| `←` | Previous song |
+| `→` | Next song |
+| `P` | Paan-leaf rain |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Usage |
-|------------|-------|
-| React | Frontend UI |
-| TypeScript | Type-safe development |
-| Vite | Development & build tooling |
-| CSS | Responsive styling and animations |
-| HTML5 Audio | Music playback |
-| Git & GitHub | Version control |
-| Git LFS | Large audio file management |
-| Vercel | Production deployment |
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- HTML5 Audio API
+- Git & GitHub
+- Git LFS
+- Vercel
 
 ---
 
 ## 🎯 Technical Highlights
 
 ### Responsive Design
-The interface adapts between desktop and mobile layouts using dedicated visual assets and responsive styling.
 
-### Custom Audio Player
-The application uses the HTML5 Audio API with custom controls for:
+The interface is designed for both desktop and mobile screens using responsive layouts and separate visual assets for wide and tall displays.
+
+### Custom Music Player
+
+The player uses the HTML5 Audio API and provides:
 
 - Play / Pause
 - Previous / Next
 - Track progress
-- Duration
-- Playlist management
-- Error handling for unavailable tracks
+- Track duration
+- Seek functionality
+- Automatic next-track playback
+- Missing-track error handling
 
-### Large File Management
-The original production project uses **Git LFS** to manage large MP3 assets efficiently instead of storing the binary files directly in normal Git history.
+### Keyboard Interaction
+
+Global keyboard controls were implemented for faster interaction while avoiding interference with editable fields.
 
 ### Production Deployment
-The application is deployed and tested in a real production environment using Vercel.
+
+The application is deployed to Vercel and tested in a real production environment.
+
+### Git LFS
+
+The production version uses Git Large File Storage (Git LFS) to manage the large MP3 assets efficiently.
 
 ---
 
@@ -81,17 +101,19 @@ nostalgia-radio/
 ├── src/
 │   ├── components/
 │   ├── data/
-│   └── ...
+│   ├── lib/
+│   ├── routes/
+│   └── styles.css
 ├── .gitattributes
+├── .gitignore
 ├── package.json
 ├── vite.config.*
 └── README.md
 
 ---
 
-## <img width="1920" height="1080" alt="Screenshot (516)" src="https://github.com/user-attachments/assets/0c1105e7-b7a7-409e-9902-d57b0516dd06" /> <img width="1080" height="2225" alt="photo_2026-08-16_12-29-15" src="https://github.com/user-attachments/assets/a7f3adce-38ca-42cf-ac25-d090cdd30f89" />
-
-
+## 📸 desktop.png
+    mobile.png
 
 ### Desktop
 
