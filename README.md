@@ -86,3 +86,68 @@ nostalgia-radio/
 ├── package.json
 ├── vite.config.*
 └── README.md
+
+---
+
+## <img width="1920" height="1080" alt="Screenshot (516)" src="https://github.com/user-attachments/assets/0c1105e7-b7a7-409e-9902-d57b0516dd06" /> <img width="1080" height="2225" alt="photo_2026-08-16_12-29-15" src="https://github.com/user-attachments/assets/a7f3adce-38ca-42cf-ac25-d090cdd30f89" />
+
+
+
+### Desktop
+
+A cinematic Indian street/paan-shop inspired interface with an integrated custom music player.
+
+### Mobile
+
+A responsive tall-screen layout designed specifically for mobile viewing.
+
+---
+
+## 💡 What I Learned
+
+Through this project I worked with:
+
+- React component architecture
+- TypeScript
+- Responsive UI development
+- HTML5 audio playback
+- Git and GitHub workflows
+- Git LFS for large files
+- Vercel deployment
+- Production debugging
+- Handling differences between local development and production environments
+
+---
+
+## 🔮 Future Improvements
+
+- 🎼 Expand the music library
+- 🔎 Add playlist search
+- ❤️ Add favorite tracks
+- 📋 Create custom playlists
+- 🎚️ Add volume/equalizer controls
+- 🌙 Add additional visual themes
+- 📊 Add playback analytics
+
+---
+
+## 👨‍💻 Developer
+
+**Abhishek Kumar**
+
+B.Tech — Electronics & Communication Engineering, 2026
+
+Interested in:
+
+- Cloud Computing
+- DevOps
+- Python
+- Linux
+- Web Development
+- Automation
+
+---
+
+⭐ If you like the project, feel free to explore the repository and try the live demo.
+
+**Live Demo → https://paanwala.vercel.app**
