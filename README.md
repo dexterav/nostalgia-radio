@@ -112,16 +112,21 @@ nostalgia-radio/
 
 ---
 
-## 📸 desktop.png
-    mobile.png
+---
 
-### Desktop
+## 📸 Screenshots
+
+### 🖥️ Desktop
 
 A cinematic Indian street/paan-shop inspired interface with an integrated custom music player.
 
-### Mobile
+![Nostalgia Radio Desktop](./public/screenshots/desktop.png)
+
+### 📱 Mobile
 
 A responsive tall-screen layout designed specifically for mobile viewing.
+
+![Nostalgia Radio Mobile](./public/screenshots/mobile.png)
 
 ---
 
