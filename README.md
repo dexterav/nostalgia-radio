@@ -1,76 +1,88 @@
-# Nostalgia Radio
+# 🎵 Nostalgia Radio
 
-Build me a single-page nostalgia music website in Next.js (App Router + TypeScript).
+> A retro-inspired music experience built around the charm of classic Indian cinema and old Hindi songs.
 
-### Stack
-- Next.js 15 (App Router)
-- TypeScript
-- Tailwind CSS v4
-- No external UI library
-- No state management library
-- Use only React hooks
+🌐 **Live Demo:** https://paanwala.vercel.app  
+💻 **Portfolio Repository:** https://github.com/dexterav/nostalgia-radio
 
-### Assets I will provide
-- /public/bg/scene-wide.png (landscape version)
-- /public/bg/scene-tall.png (portrait version)
+---
 
-### Layout Requirements
-- Full screen immersive experience
-- Background image should cover the entire screen
-- On mobile use portrait image, on desktop use landscape image (using CSS media queries)
-- Dark overlay so text remains readable
-- Fixed top bar: Current time (left) + Online count (center)
-- Fixed bottom music player
-- Big Hindi title in the center of the screen
+## ✨ Overview
 
-### Music Player (Very Important)
-Desktop:
-- Floating glassmorphic horizontal bar at the bottom
-- Spinning vinyl/cover art on the left
-- Song title + artist name
-- Progress bar
-- Previous / Play-Pause / Next buttons
+Nostalgia Radio is a responsive web-based music player designed with a nostalgic Indian street aesthetic.
 
-Mobile:
-- Stacked card style player at the bottom
+The project combines a cinematic visual experience with a functional audio player, playlist navigation, responsive layouts, and modern frontend technologies.
 
-### Features needed
-1. Auto-play music when page loads (with user interaction fallback)
-2. Continuous playlist (loop the list)
-3. Live online counter (can be fake/random between 20-80)
-4. Real current time that updates every second
-5. Smooth animations (vinyl spin only when playing)
-6. Glassmorphism effect on the player
-7. Fully responsive
+The goal was to create a website that feels like stepping into a small old-school paan shop while listening to classic Hindi music.
 
-### Hindi Title
-Big centered text: "डीलक्स पानवाला"
+---
 
-### Design Style
-- Same atmospheric nostalgic feeling as saloon.wtf
-- Warm reds, deep shadows, soft glow
-- Clean typography
-- Minimal UI
+## 🚀 Features
 
-Please write clean, production-ready code with proper file structure.
+- 🎵 Custom music player with play/pause controls
+- ⏮️ Previous and next track navigation
+- 📻 Playlist-based music playback
+- ⏱️ Track progress and duration display
+- 📱 Responsive mobile and desktop layouts
+- 🖼️ Separate visual layouts for wide and tall screens
+- 🎨 Custom retro/Indian street-inspired UI
+- 🌐 Production deployment with Vercel
+- ⚡ Fast frontend experience with Vite
+- 💾 Git LFS workflow for large audio assets
 
-This project was built with [Lovable](https://lovable.dev).
+---
 
-## Build with Lovable
+## 🛠️ Tech Stack
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/cf04dbcd-c407-417b-9383-bc2268f30919).
+| Technology | Usage |
+|------------|-------|
+| React | Frontend UI |
+| TypeScript | Type-safe development |
+| Vite | Development & build tooling |
+| CSS | Responsive styling and animations |
+| HTML5 Audio | Music playback |
+| Git & GitHub | Version control |
+| Git LFS | Large audio file management |
+| Vercel | Production deployment |
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+---
 
-## Development
+## 🎯 Technical Highlights
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+### Responsive Design
+The interface adapts between desktop and mobile layouts using dedicated visual assets and responsive styling.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+### Custom Audio Player
+The application uses the HTML5 Audio API with custom controls for:
+
+- Play / Pause
+- Previous / Next
+- Track progress
+- Duration
+- Playlist management
+- Error handling for unavailable tracks
+
+### Large File Management
+The original production project uses **Git LFS** to manage large MP3 assets efficiently instead of storing the binary files directly in normal Git history.
+
+### Production Deployment
+The application is deployed and tested in a real production environment using Vercel.
+
+---
+
+## 📂 Project Structure
+
+```text
+nostalgia-radio/
+├── public/
+│   └── bg/
+│       ├── scene-tall.png
+│       └── scene-wide.png
+├── src/
+│   ├── components/
+│   ├── data/
+│   └── ...
+├── .gitattributes
+├── package.json
+├── vite.config.*
+└── README.md
